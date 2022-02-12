@@ -1,6 +1,6 @@
 {
     "name": "cspray/labrador-composite-future",
-    "description": "Compose Amp Future's and await them however you want with a type-safe CompositeFuture object.",
+    "description": "Compose Amp Futures and await them however you want with a type-safe CompositeFuture object.",
     "license": "MIT",
     "authors": [
         {
