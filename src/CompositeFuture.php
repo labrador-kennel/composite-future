@@ -19,6 +19,10 @@ final class CompositeFuture {
         $this->cancellation = $cancellation;
     }
 
+    public function merge(CompositeFuture $compositeFuture) : CompositeFuture {
+        return new CompositeFuture([...$this->futures, ...$compositeFuture->futures]);
+    }
+
     public function await() : array {
         return await($this->futures, $this->cancellation);
     }

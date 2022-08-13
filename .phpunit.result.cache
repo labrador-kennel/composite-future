@@ -1,1 +1,0 @@
-{"version":1,"defects":{"Labrador\\CompositeFuture\\CompositeFutureTest::testAwaitThrowsOnFirstError":3},"times":{"Labrador\\CompositeFuture\\CompositeFutureTest::testAwaitThrowsOnFirstError":0.007}}

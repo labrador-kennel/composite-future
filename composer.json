@@ -9,11 +9,19 @@
         }
     ],
     "require": {
-        "amphp/amp": "3.0.0-beta.4"
+        "amphp/amp": "3.0.0-beta.9"
     },
     "autoload": {
         "psr-4": {
-            "Labrador\\CompositeFuture\\": "src/"
+            "Labrador\\CompositeFuture\\": "src"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Labrador\\CompositeFuture\\": "test"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
     }
 }
