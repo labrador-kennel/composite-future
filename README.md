@@ -4,10 +4,10 @@ An object that represents a type-safe collection of `Amp\Future` objects and met
 
 ## Installation
 
-[Composer]() is the only supported method for installing Labrador packages.
+[Composer](https://getcomposer.org) is the only supported method for installing Labrador packages.
 
 ```
-composer require cspray/labrador-composite-future
+composer require labrador-kennel/composite-future
 ```
 
 ## Getting Started
