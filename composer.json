@@ -9,7 +9,12 @@
         }
     ],
     "require": {
-        "amphp/amp": "3.0.0-beta.9"
+        "amphp/amp": "~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "psalm/phar": "^4.27",
+        "roave/security-advisories": "dev-latest"
     },
     "autoload": {
         "psr-4": {
@@ -20,9 +25,5 @@
         "psr-4": {
             "Labrador\\CompositeFuture\\": "test"
         }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.5",
-        "psalm/phar": "^4.27"
     }
 }
